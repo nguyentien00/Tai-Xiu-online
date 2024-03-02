@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="number"],
+select {
+  padding: 8px;
+  width: 150px;
+}
+
+.rainbow-text {
+  display: inline-block;
+  animation: rainbow 3s infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    color: #ff0000;
+  }
+  25% {
+    color: #ff7f00;
+  }
+  50% {
+    color: #ffff00;
+  }
+  75% {
+    color: #00ff00;
+  }
+  100% {
+    color: #0000ff;
+  }
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 20px 25px 0 rgba(255, 255, 255, 0.5);
+}
